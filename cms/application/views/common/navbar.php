@@ -38,7 +38,7 @@ header("Cache-Control: no cache");
 
                 <li class="nav-item dropdown dropdown-user">
                     <a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
-                        <img src="<?php echo base_url()?>images/logo1.gif" class="rounded-circle mr-2" height="34" alt="">
+                        <img src="<?php echo base_url()?>images/logo1.png" class="rounded-circle mr-2" height="34" alt="">
                         <span><?php echo ucwords($this->session->userdata('username'))?></span>
                     </a>
 
