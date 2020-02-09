@@ -1,0 +1,109 @@
+@media only screen and (max-width: 480px) {
+  .logo-row {
+    display: none !important;
+  }
+}
+.dow{
+	color: #04ab94;
+}
+.datepicker-days{
+	padding:10px;
+}	
+.datepicker table tr td.active.active, .datepicker table tr td.active.highlighted.active, .datepicker table tr td.active.highlighted:active, .datepicker table tr td.active:active{
+	    background-color: #04ab94 !important;
+    border-color: #04ab94!important;
+}
+.error{
+	text-align: left;
+}
+body{
+	background-color: #000000 !important;
+}
+.label{
+	color: #ffffff;
+}
+.customer-form-control {
+	border-width: 0px;
+    display: block;
+    width: 100%;
+    height: calc(1.5385em + .875rem + 2px);
+/*    padding: 1.4375rem .875rem;*/
+     padding: 17px 2px;
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5385;
+    color: #efffd6;
+    background-color: #000;
+    background-clip: padding-box;
+    border-bottom: 1px solid #cccccc;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.select-form-control{
+    border-width: 0px;
+    display: block;
+    width: 100%;
+   /* padding: 1.4375rem .875rem;*/
+       padding: 17px 2px;
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5385;
+    color: #efffd6;
+    background-color: #000;
+    background-clip: padding-box;
+    border-bottom: 1px solid #cccccc;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.customer-submit{
+	background-color: #de9b30 !important;
+	border-radius: 0px !important;
+	padding: 4% !important;
+}
+.welcome_content_subheading{
+	color: #fff;
+	font-size: 23px;
+    font-family: 'Oregano', cursive;
+    letter-spacing: 0.05em;
+}
+.welcome_content_caption{
+	color: #fff;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.error{
+    color: #FF0000;
+}
+@media (min-width: 576px){
+.modal-dialog-scrollable {
+    max-height: calc(100% - 1.5rem) !important;
+    }
+}
+
+.loading-image {
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+}
+.loader
+{
+    display: none;
+    width:200px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    text-align:center;
+    margin-left: -50px;
+    margin-top: -100px;
+    z-index:2;
+}
+.mt-10, .my-10 {
+    margin-top: 10.75rem!important;
+}
