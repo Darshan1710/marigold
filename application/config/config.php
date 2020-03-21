@@ -24,7 +24,7 @@ date_default_timezone_set('Asia/Kolkata');
 |
 */
 //$config['base_url'] = 'http://localhost/marigold/';	
-$config['base_url'] = 'http://demo.alphacore.in/';	
+$config['base_url'] = 'https://demo.alphacore.in/';	
 //
 /*//
 |--------------------------------------------------------------------------
