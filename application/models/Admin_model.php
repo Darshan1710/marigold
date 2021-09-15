@@ -35,7 +35,7 @@ class Admin_model extends CI_Model {
         return $this->db->insert('contacts',$data);
     }
     public function getTableList(){
-        return $this->db->get('table')->result_array();
+        return $this->db->get('tabledata')->result_array();
     }
     public function updateCustomer($filter,$data){
         $this->db->where($filter);
